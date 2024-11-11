@@ -10,7 +10,7 @@ vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 # App title
 st.title("IMDb Movie Review Sentiment Analysis")
 
-st.image("./img/imdb_img3.jpg", caption="IMDB Review", use_column_width=True)
+st.image("imdb_img3.jpg", caption="IMDB Review", use_column_width=True)
 # Input text box
 user_input = st.text_area("Enter a movie review:")
 
